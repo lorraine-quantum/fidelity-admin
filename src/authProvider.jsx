@@ -1,6 +1,6 @@
 const authProvider = {
     login: ({ username, password }) => {
-        const request = new Request('https://fidelity-trades-api.onrender.com/admin/auth/login', {
+        const request = new Request('https://api.tradetechcoin.com/admin/auth/login', {
             // const request = new Request('http://localhost:3000/admin/auth/login', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
